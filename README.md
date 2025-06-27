@@ -1,13 +1,8 @@
 # 🤖 AgenticAI using LangGraph & MCP
 
-> A modular, scalable reference implementation for building **Agentic Multi-Agent Systems** leveraging LangGraph and the **Model Context Protocol (MCP)**—designed to orchestrate autonomous, goal-driven agents with composable execution graphs, asynchronous interactions, and context-aware decision making.
-
 <div align="center">
-  <img src="YOUR_IMAGE_URL_HERE" alt="Agentic AI Overview" width="800"/>
-  <p><em>High-level architecture of AgenticAI workflows</em></p>
+  <img src="_img\banner.png" alt="Agentic AI Overview"/>
 </div>
-
----
 
 ![author](https://img.shields.io/badge/author-mohd--faizy-red)
 ![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
@@ -19,7 +14,7 @@
 ![LangChain](https://img.shields.io/badge/LangChain-Tooling-00ADD8?logo=langchain&logoColor=white)
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
----
+
 
 ## 📚 Table of Contents
 
