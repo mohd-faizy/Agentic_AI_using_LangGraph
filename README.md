@@ -122,6 +122,11 @@ These systems extend beyond classic Generative AI by providing **stateful**, **g
 
 ## 📍 Agentic AI Curriculum
 
+<div align="center">
+  <img src="_img/curriculum.png" alt="AgenticAI Curriculum"/>
+</div>
+
+
 ### 🟡 1. **Foundations of Agentic AI**
 
 **Goal**: Understand the core principles and design philosophies of agentic systems.
@@ -132,20 +137,24 @@ These systems extend beyond classic Generative AI by providing **stateful**, **g
 
   - Difference between LLM apps and agentic systems
   - Agent-Environment-Task abstraction
+  
 - **1.2 Core Concepts**
 
   - Autonomy, memory, planning, tool use
   - Event-driven vs reactive agents
+  
 - **1.3 Agent Architectures**
 
   - Reflex, Goal-based, Utility-based, Learning agents
+  
 - **1.4 Multi-Agent Systems**
 
   - Coordination, cooperation, communication
+  
 - **1.5 Design Patterns in Agentic Systems**
 
   - Event loops, state management, concurrency
-- **Hands-On**: Implement a basic conversational agent with memory and tools.
+
 
 ---
 
@@ -159,20 +168,24 @@ These systems extend beyond classic Generative AI by providing **stateful**, **g
 
   - Why LangGraph? Comparison with traditional orchestrators
   - Node, Edge, State concepts
+  
 - **2.2 Building LangGraphs**
 
   - Nodes (functions, tools, models)
   - Edges (transitions, logic flows)
+  
 - **2.3 State Management**
 
   - Stateful agents and control flows
+  
 - **2.4 Async vs Sync Execution**
 
   - Handling parallelism, retries, and failure
+  
 - **2.5 Integrating Tools & APIs**
 
   - How to use LangGraph to call external APIs
-- **Hands-On**: Build a simple multi-node LangGraph with user input and output validation.
+
 
 ---
 
@@ -185,19 +198,23 @@ These systems extend beyond classic Generative AI by providing **stateful**, **g
 - **3.1 Dynamic Edges & Conditional Routing**
 
   - IF/ELSE, switches, and policy-based transitions
+  
 - **3.2 Memory & Checkpointing**
 
   - Persisting state, reloading workflows
+  
 - **3.3 Event-Driven LangGraphs**
 
   - Triggering via webhooks, streams, events
+  
 - **3.4 Multi-Agent LangGraphs**
 
   - Composing agents as nodes, coordination strategies
+  
 - **3.5 Debugging & Monitoring**
 
   - Logging, visualization, error recovery
-- **Hands-On**: Design a customer support agent with dynamic behavior switching.
+
 
 ---
 
@@ -210,19 +227,23 @@ These systems extend beyond classic Generative AI by providing **stateful**, **g
 - **4.1 Agent Frameworks Overview**
 
   - `LangChain`, `CrewAI`, `Autogen`, `Semantic Kernel`
+  
 - **4.2 Planning & Tool Usage**
 
   - ReAct, MRKL, and function-calling
+  
 - **4.3 Memory Types**
 
   - Episodic, long-term, vector memory
+  
 - **4.4 Decision-Making & Policies**
 
   - Finite-state machines, decision trees, RLHF
+  
 - **4.5 Conversational Agents**
 
   - Tool use + memory + personality
-- **Hands-On**: Build a planning agent with dynamic tool use (search, calculator, file reader).
+
 
 ---
 
@@ -235,19 +256,23 @@ These systems extend beyond classic Generative AI by providing **stateful**, **g
 - **5.1 Fundamentals of RAG**
 
   - Vector stores, chunking, embedding models
+  
 - **5.2 LangGraph + RAG**
 
   - Indexing, searching, retrieving inside graphs
+  
 - **5.3 Memory-Augmented RAG**
 
   - Hybrid memory + retrieval systems
+  
 - **5.4 Multi-hop & Agentic Retrieval**
 
   - Agents that reason over multiple sources
+  
 - **5.5 Tool-Augmented RAG Agents**
 
   - Agents that first retrieve, then use tools
-- **Hands-On**: Build an academic research assistant that retrieves, analyzes, and summarizes documents.
+
 
 ---
 
@@ -260,20 +285,22 @@ These systems extend beyond classic Generative AI by providing **stateful**, **g
 - **6.1 Deployment Strategies**
 
   - REST APIs, event-based systems, serverless vs container
+  
 - **6.2 Security & Observability**
 
   - Rate-limiting, prompt injection, logging
+  
 - **6.3 Evaluation & Testing**
 
   - Output evals, trace analysis, human-in-the-loop
+  
 - **6.4 Agent Feedback Loops**
 
   - Self-correction, red teaming, meta-agents
+  
 - **6.5 Scaling Architectures**
 
   - Multi-tenant agents, distributed LangGraphs
-- **Hands-On**: Productize and deploy a LangGraph-powered travel planning agent with observability.
-
 
 ---
 
