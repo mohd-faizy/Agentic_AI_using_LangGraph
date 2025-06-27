@@ -25,9 +25,15 @@
 
 - [🤖 AgenticAI using LangGraph \& MCP](#-agenticai-using-langgraph--mcp)
   - [📚 Table of Contents](#-table-of-contents)
-  - [🔍 Overview](#-overview)
   - [🧬 What is AgenticAI?](#-what-is-agenticai)
     - [🛠️ Core Components](#️-core-components)
+      - [1. **Agents**](#1-agents)
+      - [2. **LangGraph State Machine**](#2-langgraph-state-machine)
+      - [3. **MCP Message Layer**](#3-mcp-message-layer)
+      - [4. **Memory and Context Store**](#4-memory-and-context-store)
+      - [5. **Tools and Interfaces**](#5-tools-and-interfaces)
+      - [6. **Task Router / Controller**](#6-task-router--controller)
+      - [7. **Observability \& Debugging**](#7-observability--debugging)
     - [🧠 GenAI vs AgenticAI](#-genai-vs-agenticai)
   - [📍 Agentic AI Curriculum](#-agentic-ai-curriculum)
   - [⚙️ Installation](#️-installation)
@@ -37,22 +43,6 @@
   - [🪙Credits and Inspiration](#credits-and-inspiration)
   - [🔗Connect with me](#connect-with-me)
 
----
-
-## 🔍 Overview
-
-This reference implementation demonstrates how to:
-
-- Combine **LangGraph** for compositional agent graphs  
-- Leverage **Model Context Protocol (MCP)** for standardized tool/context integration  
-- Employ **Ollama** & **HuggingFace** models for domain‐specific intelligence  
-
-…to build **production-grade, goal-driven** AI systems with:
-
-- Fine-grained task decomposition  
-- Context-aware reasoning  
-- Event-driven, asynchronous coordination  
-- Human-in-the-loop feedback loops  
 
 ---
 
@@ -66,23 +56,70 @@ AgenticAI describes systems where:
 
 These systems extend beyond classic Generative AI by providing **stateful**, **goal-oriented** workflows across multiple collaborative agents.
 
----
+
 
 ### 🛠️ Core Components
 
-- **LangGraph**  
-  Build and visualize multi-agent workflows as directed graphs.  
+The Agentic AI system using **LangGraph** and the **Model Context Protocol (MCP)** is built around the following modular and interoperable components:
 
-- **MCP (Model Context Protocol)**  
-  A JSON-RPC–style standard for exposing tools, data sources, and context to LLM-powered agents.  
+#### 1. **Agents**
 
-- **Ollama**  
-  High-throughput LLM serving for on-premise or cloud deployments.  
+- **Description:** Autonomous entities with specific roles, memory, tools, and objectives.
+- **Examples:**
 
-- **HuggingFace Models**  
-  Domain-tuned transformers for specialized reasoning tasks.  
+  - `PlannerAgent`: Decomposes high-level goals into actionable tasks.
+  - `ResearchAgent`: Gathers relevant data or insights using tools like web search or RAG.
+  - `ExecutionAgent`: Executes low-level tasks and invokes tools or APIs.
+- **Features:** Stateful (via memory), tool-using, communicative (MCP-compliant messaging).
 
----
+#### 2. **LangGraph State Machine**
+
+- **Description:** The central orchestrator defining agent transitions, execution flow, and dynamic task routing.
+- **Features:**
+
+  - **Stateful DAG**: Nodes = agents/tools; Edges = routing logic.
+  - **Conditional Routing**: Based on task output or system state.
+  - **Concurrency & Retry Logic**: Supports parallel execution and fault tolerance.
+
+#### 3. **MCP Message Layer**
+
+- **Description:** Protocol for structured message exchange between agents.
+- **Features:**
+
+  - `Message`, `Thread`, `Step`, and `Run` objects.
+  - Agent reasoning traceability.
+  - Shared memory via `Thread` context.
+
+#### 4. **Memory and Context Store**
+
+- **Description:** Long- and short-term memory stores for agents.
+- **Types:**
+
+  - **Thread-level Memory**: Conversation history, decisions, intermediate steps.
+  - **Agent Memory**: Role-specific memory for internal context and learning.
+  - **External Vector DB** (e.g., FAISS, Weaviate): For RAG and semantic retrieval.
+
+#### 5. **Tools and Interfaces**
+
+- **Description:** External capabilities invoked by agents to augment reasoning.
+- **Examples:**
+
+  - Web search, code interpreter, database access, API clients.
+- **Integration:** Tools are abstracted as callable nodes or plugins within LangGraph.
+
+#### 6. **Task Router / Controller**
+
+- **Description:** A centralized or decentralized mechanism to assign subtasks to agents.
+- **Modes:**
+
+  - **Centralized Planning:** Planner decides the full task flow.
+  - **Distributed Negotiation:** Agents communicate and reassign tasks dynamically.
+
+#### 7. **Observability & Debugging**
+
+- **Description:** Logging, tracing, and monitoring components to track agent behavior and graph execution.
+- **Tools:** LangGraph visualizer, logging middleware, state inspection.
+
 
 ### 🧠 GenAI vs AgenticAI
 
