@@ -1,0 +1,47 @@
+# LangChain Core Components
+langchain
+langchain-core
+langchain-community
+
+# langgraph is a community-driven extension of LangChain
+langgraph
+
+# OpenAI Integration
+langchain-openai
+openai
+
+# Anthropic Integration
+langchain-anthropic
+anthropic
+
+# Google Gemini Integration
+langchain-google-genai
+google-generativeai
+
+# Hugging Face Integration
+langchain-huggingface
+transformers
+huggingface-hub
+torch
+
+# Environment Variable Management
+python-dotenv
+
+# Machine Learning Utilities
+numpy
+scikit-learn
+
+# Additional Dependencies
+pydantic # Required by LangChain
+typing-extensions # Required by several packages
+requests # Required for API calls
+numexpr # For efficient numerical computations
+wikipedia  # For Wikipedia access
+duckduckgo-search # For DuckDuckGo search
+pypdf # For PDF handling
+unstructured # For unstructured data processing
+langchain-chroma # For ChromaDB integration
+markdown # For Markdown processing
+langchain-experimental # For experimental features
+rank_bm25 # For BM25 ranking
+ragas  # For RAG (Retrieval-Augmented Generation) capabilities
