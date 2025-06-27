@@ -27,8 +27,8 @@
   - [📚 Table of Contents](#-table-of-contents)
   - [🔍 Overview](#-overview)
   - [🧬 What is AgenticAI?](#-what-is-agenticai)
-  - [🛠️ Core Components](#️-core-components)
-  - [🧠 GenAI vs AgenticAI](#-genai-vs-agenticai)
+    - [🛠️ Core Components](#️-core-components)
+    - [🧠 GenAI vs AgenticAI](#-genai-vs-agenticai)
   - [📍 Agentic AI Curriculum](#-agentic-ai-curriculum)
   - [⚙️ Installation](#️-installation)
   - [Contributing](#contributing)
@@ -68,7 +68,7 @@ These systems extend beyond classic Generative AI by providing **stateful**, **g
 
 ---
 
-## 🛠️ Core Components
+### 🛠️ Core Components
 
 - **LangGraph**  
   Build and visualize multi-agent workflows as directed graphs.  
@@ -84,7 +84,7 @@ These systems extend beyond classic Generative AI by providing **stateful**, **g
 
 ---
 
-## 🧠 GenAI vs AgenticAI
+### 🧠 GenAI vs AgenticAI
 
 | Feature                    | Generative AI (GenAI)                                                    | Agentic AI                                                                 |
 |----------------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------------|
