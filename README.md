@@ -29,6 +29,19 @@
   - [🧬 What is AgenticAI?](#-what-is-agenticai)
   - [🛠️ Core Components](#️-core-components)
   - [🧠 GenAI vs AgenticAI](#-genai-vs-agenticai)
+  - [📍 Agentic AI Curriculum](#-agentic-ai-curriculum)
+    - [🟡 1. **Foundations of Agentic AI**](#-1-foundations-of-agentic-ai)
+      - [Modules](#modules)
+    - [🟢 2. **LangGraph Fundamentals**](#-2-langgraph-fundamentals)
+      - [Modules](#modules-1)
+    - [🔵 3. **Advanced LangGraph**](#-3-advanced-langgraph)
+      - [Modules](#modules-2)
+    - [🔴 4. **AI Agents**](#-4-ai-agents)
+      - [Modules](#modules-3)
+    - [🟣 5. **Agentic RAG (Retrieval-Augmented Generation)**](#-5-agentic-rag-retrieval-augmented-generation)
+      - [Modules](#modules-4)
+    - [🟤 6. **Productization**](#-6-productization)
+      - [Modules](#modules-5)
   - [⚙️ Installation](#️-installation)
   - [Contributing](#contributing)
   - [⚖ ➤ License](#--license)
@@ -103,6 +116,163 @@ These systems extend beyond classic Generative AI by providing **stateful**, **g
 | **Security/Guardrails**    | Prompt filtering, static constraints                                    | Embedded policies, role-based access, task-level validation               |
 | **Deployment Targets**     | Front-end apps, content generators, creative tools                      | Backend automation, orchestration layers, autonomous agent systems        |
 | **Example Systems**        | ChatGPT, Claude, Gemini, DALL·E 3, Sora, MusicLM, MidJourney             | AutoGPT, LangGraph + MCP, OpenDevin, OpenAgents, CrewAI, MetaAgent, Devika |
+
+
+---
+
+## 📍 Agentic AI Curriculum
+
+### 🟡 1. **Foundations of Agentic AI**
+
+**Goal**: Understand the core principles and design philosophies of agentic systems.
+
+#### Modules
+
+- **1.1 Introduction to Agentic AI**
+
+  - Difference between LLM apps and agentic systems
+  - Agent-Environment-Task abstraction
+- **1.2 Core Concepts**
+
+  - Autonomy, memory, planning, tool use
+  - Event-driven vs reactive agents
+- **1.3 Agent Architectures**
+
+  - Reflex, Goal-based, Utility-based, Learning agents
+- **1.4 Multi-Agent Systems**
+
+  - Coordination, cooperation, communication
+- **1.5 Design Patterns in Agentic Systems**
+
+  - Event loops, state management, concurrency
+- **Hands-On**: Implement a basic conversational agent with memory and tools.
+
+---
+
+### 🟢 2. **LangGraph Fundamentals**
+
+**Goal**: Learn how to construct and run agent workflows using LangGraph.
+
+#### Modules
+
+- **2.1 Introduction to LangGraph**
+
+  - Why LangGraph? Comparison with traditional orchestrators
+  - Node, Edge, State concepts
+- **2.2 Building LangGraphs**
+
+  - Nodes (functions, tools, models)
+  - Edges (transitions, logic flows)
+- **2.3 State Management**
+
+  - Stateful agents and control flows
+- **2.4 Async vs Sync Execution**
+
+  - Handling parallelism, retries, and failure
+- **2.5 Integrating Tools & APIs**
+
+  - How to use LangGraph to call external APIs
+- **Hands-On**: Build a simple multi-node LangGraph with user input and output validation.
+
+---
+
+### 🔵 3. **Advanced LangGraph**
+
+**Goal**: Master dynamic and complex flows in LangGraph for real-world systems.
+
+#### Modules
+
+- **3.1 Dynamic Edges & Conditional Routing**
+
+  - IF/ELSE, switches, and policy-based transitions
+- **3.2 Memory & Checkpointing**
+
+  - Persisting state, reloading workflows
+- **3.3 Event-Driven LangGraphs**
+
+  - Triggering via webhooks, streams, events
+- **3.4 Multi-Agent LangGraphs**
+
+  - Composing agents as nodes, coordination strategies
+- **3.5 Debugging & Monitoring**
+
+  - Logging, visualization, error recovery
+- **Hands-On**: Design a customer support agent with dynamic behavior switching.
+
+---
+
+### 🔴 4. **AI Agents**
+
+**Goal**: Learn to build goal-driven agents that use tools, plan actions, and operate autonomously.
+
+#### Modules
+
+- **4.1 Agent Frameworks Overview**
+
+  - `LangChain`, `CrewAI`, `Autogen`, `Semantic Kernel`
+- **4.2 Planning & Tool Usage**
+
+  - ReAct, MRKL, and function-calling
+- **4.3 Memory Types**
+
+  - Episodic, long-term, vector memory
+- **4.4 Decision-Making & Policies**
+
+  - Finite-state machines, decision trees, RLHF
+- **4.5 Conversational Agents**
+
+  - Tool use + memory + personality
+- **Hands-On**: Build a planning agent with dynamic tool use (search, calculator, file reader).
+
+---
+
+### 🟣 5. **Agentic RAG (Retrieval-Augmented Generation)**
+
+**Goal**: Integrate retrieval systems with agents to enable contextual, real-time reasoning.
+
+#### Modules
+
+- **5.1 Fundamentals of RAG**
+
+  - Vector stores, chunking, embedding models
+- **5.2 LangGraph + RAG**
+
+  - Indexing, searching, retrieving inside graphs
+- **5.3 Memory-Augmented RAG**
+
+  - Hybrid memory + retrieval systems
+- **5.4 Multi-hop & Agentic Retrieval**
+
+  - Agents that reason over multiple sources
+- **5.5 Tool-Augmented RAG Agents**
+
+  - Agents that first retrieve, then use tools
+- **Hands-On**: Build an academic research assistant that retrieves, analyzes, and summarizes documents.
+
+---
+
+### 🟤 6. **Productization**
+
+**Goal**: Learn how to deploy, scale, and monitor agentic systems in real-world applications.
+
+#### Modules
+
+- **6.1 Deployment Strategies**
+
+  - REST APIs, event-based systems, serverless vs container
+- **6.2 Security & Observability**
+
+  - Rate-limiting, prompt injection, logging
+- **6.3 Evaluation & Testing**
+
+  - Output evals, trace analysis, human-in-the-loop
+- **6.4 Agent Feedback Loops**
+
+  - Self-correction, red teaming, meta-agents
+- **6.5 Scaling Architectures**
+
+  - Multi-tenant agents, distributed LangGraphs
+- **Hands-On**: Productize and deploy a LangGraph-powered travel planning agent with observability.
 
 
 ---
