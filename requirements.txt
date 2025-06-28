@@ -1,47 +1,58 @@
-# LangChain Core Components
-langchain
-langchain-core
-langchain-community
+# ============================================
+# 🌐 LangChain Core & Extensions
+# ============================================
+langchain               # Core LangChain library
+langchain-core          # Underlying interfaces and utilities
+langchain-community     # Community-driven components
+langchain-experimental  # Experimental features
+langgraph               # LangGraph: extension for agentic workflows
+langsmith               # LangSmith: tracking/debugging tool for LangChain apps
 
-# langgraph is a community-driven extension of LangChain
-langgraph
+# ============================================
+# 🤖 LLM Providers & Integrations
+# ============================================
 
-# OpenAI Integration
-langchain-openai
-openai
+# --- OpenAI ---
+openai                      # Official OpenAI SDK
+langchain-openai            # LangChain's OpenAI integration
 
-# Anthropic Integration
-langchain-anthropic
-anthropic
+# --- Anthropic ---
+anthropic                   # Official Anthropic SDK
+langchain-anthropic         # LangChain's Anthropic integration
 
-# Google Gemini Integration
-langchain-google-genai
-google-generativeai
+# --- Google Gemini ---
+google-generativeai         # Gemini (PaLM) SDK
+langchain-google-genai      # LangChain's Gemini integration
 
-# Hugging Face Integration
-langchain-huggingface
-transformers
-huggingface-hub
-torch
+# --- Hugging Face ---
+transformers                # Hugging Face Transformers
+huggingface-hub             # Hugging Face Hub API
+torch                       # Required by Transformers
+langchain-huggingface       # LangChain's Hugging Face integration
 
-# Environment Variable Management
-python-dotenv
+# ============================================
+# 🧠 Machine Learning & Utilities
+# ============================================
+numpy                       # Numerical operations
+scikit-learn                # ML models and utilities
 
-# Machine Learning Utilities
-numpy
-scikit-learn
+# ============================================
+# ⚙️ Environment & Configuration
+# ============================================
+python-dotenv               # Environment variable management
 
-# Additional Dependencies
-pydantic # Required by LangChain
-typing-extensions # Required by several packages
-requests # Required for API calls
-numexpr # For efficient numerical computations
-wikipedia  # For Wikipedia access
-duckduckgo-search # For DuckDuckGo search
-pypdf # For PDF handling
-unstructured # For unstructured data processing
-langchain-chroma # For ChromaDB integration
-markdown # For Markdown processing
-langchain-experimental # For experimental features
-rank_bm25 # For BM25 ranking
-ragas  # For RAG (Retrieval-Augmented Generation) capabilities
+# ============================================
+# 📦 Miscellaneous Dependencies
+# ============================================
+pydantic                    # Data validation (required by LangChain)
+typing-extensions           # For advanced type hints
+requests                    # HTTP requests
+numexpr                     # Fast numerical expressions
+wikipedia                   # Wikipedia API access
+duckduckgo-search           # Search via DuckDuckGo
+pypdf                       # PDF processing
+unstructured                # Handling unstructured data
+markdown                    # Markdown text support
+rank_bm25                   # BM25 ranking algorithm
+langchain-chroma            # Chroma vector store integration
+ragas                       # RAG (Retrieval-Augmented Generation) support

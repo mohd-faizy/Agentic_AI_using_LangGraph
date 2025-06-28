@@ -1,0 +1,39 @@
+[project]
+name = "agentic-ai-using-langgraph-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=0.55.0",
+    "duckduckgo-search>=8.0.4",
+    "google-generativeai>=0.8.5",
+    "huggingface-hub>=0.33.1",
+    "langchain>=0.3.26",
+    "langchain-anthropic>=0.3.16",
+    "langchain-chroma>=0.2.4",
+    "langchain-community>=0.3.26",
+    "langchain-core>=0.3.66",
+    "langchain-experimental>=0.3.4",
+    "langchain-google-genai>=2.0.10",
+    "langchain-huggingface>=0.3.0",
+    "langchain-openai>=0.3.27",
+    "langgraph>=0.5.0",
+    "langsmith>=0.4.4",
+    "markdown>=3.8.2",
+    "numexpr>=2.11.0",
+    "numpy>=2.3.1",
+    "openai>=1.93.0",
+    "pydantic>=2.11.7",
+    "pypdf>=5.6.1",
+    "python-dotenv>=1.1.1",
+    "ragas>=0.2.15",
+    "rank-bm25>=0.2.2",
+    "requests>=2.32.4",
+    "scikit-learn>=1.7.0",
+    "torch>=2.7.1",
+    "transformers>=4.53.0",
+    "typing-extensions>=4.14.0",
+    "unstructured>=0.18.1",
+    "wikipedia>=1.4.0",
+]
