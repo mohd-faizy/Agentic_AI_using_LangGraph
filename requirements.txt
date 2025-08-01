@@ -37,7 +37,7 @@ langchain-huggingface       # LangChain's Hugging Face integration
 # Optional: Recommended for embeddings and local inference
 sentence-transformers       # Pretrained embedding models
 accelerate                  # Optimized model loading for HF models
-bitsandbytes                # For efficient inference (optional for 8bit models)
+# bitsandbytes                # For efficient inference (optional for 8bit models)
 
 # --- Ollama (Local LLMs) ---
 langchain-ollama            # LangChain's Ollama integration for local models
