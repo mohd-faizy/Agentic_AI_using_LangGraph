@@ -155,6 +155,7 @@ cd Agentic_AI_using_LangGraph_-_MCP
 
 # 2. Create & activate a virtual environment
 python -m venv venv
+uv venv
 # Unix/macOS
 source venv/bin/activate
 # Windows
@@ -162,6 +163,7 @@ venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
+uv add -r requirements.txt
 
 ```
 
