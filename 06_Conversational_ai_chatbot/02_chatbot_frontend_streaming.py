@@ -2,26 +2,24 @@ import streamlit as st
 from langchain_core.messages import HumanMessage
 from chatbot_backend import chatbot  # Import compiled LangGraph chatbot
 
-# -------------------------------
 # Configuration
 # -------------------------------
 CONFIG = {'configurable': {'thread_id': 'thread-1'}}  # Optional thread ID for LangGraph context
 
-# -------------------------------
 # Session State Initialization
 # -------------------------------
 # st.session_state -> Dictionary to persist data across reruns (e.g., message history)
 if 'message_history' not in st.session_state:
     st.session_state['message_history'] = []  # Initialize with empty chat history
 
-# -------------------------------
+
 # Display Previous Chat Messages
 # -------------------------------
 for message in st.session_state['message_history']:
     with st.chat_message(message['role']):     # Roles: 'user' or 'assistant'
         st.text(message['content'])            # Render message content in the UI
 
-# -------------------------------
+
 # Chat Input Box
 # -------------------------------
 user_input = st.chat_input('Type here...')
@@ -34,7 +32,7 @@ if user_input:
     with st.chat_message('user'):
         st.text(user_input)
 
-    # -------------------------------
+
     # LangGraph Streaming Section
     # -------------------------------
     with st.chat_message('assistant'):
