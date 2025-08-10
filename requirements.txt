@@ -8,6 +8,7 @@ langchain-experimental      # Experimental features
 langgraph                   # LangGraph: extension for agentic workflows
 langsmith                   # LangSmith: tracking/debugging tool for LangChain apps
 langchain-mcp-adapters      # MCP adapter to connect components with LangChain
+langgraph-checkpoint-sqlite #
 
 # ============================================
 # 🤖 LLM Providers & Integrations
@@ -79,6 +80,7 @@ ipykernel                   # Jupyter kernel interface (for notebooks)
 ipywidgets                  # Jupyter UI widgets
 tqdm                        # Progress bar support
 notebook                    # Jupyter Notebook interface
+multidict                   # Multidict for handling multi-value dictionaries
 
 
 # ============================================
