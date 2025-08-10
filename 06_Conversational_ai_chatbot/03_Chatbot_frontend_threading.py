@@ -25,7 +25,7 @@
 # imports
 import streamlit as st
 from langchain_core.messages import HumanMessage
-from chatbot_backend import chatbot  # Import compiled LangGraph chatbot
+from chatbot_backend import chatbot               # Import compiled LangGraph chatbot
 import uuid
 
 
