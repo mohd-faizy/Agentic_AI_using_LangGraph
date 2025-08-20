@@ -53,7 +53,7 @@
 
 ```mermaid
 graph TD
-    A[Start with Agentic AI Engineer Curriculum] --> B{Choose Module}
+    A[Agentic AI Engineer Curriculum] --> B{Choose Module}
     
     B -->|Foundations| C[Foundations of Agentic AI]
     C --> C1[Intro to Agentic AI]
@@ -264,26 +264,3 @@ This repository draws inspiration from the exceptional educational content devel
 
 <img src="https://github-readme-stats.vercel.app/api?username=mohd-faizy&show_icons=true" width=380px height=200px />
 
-```mermaid
-graph TD
-    A[🚀 Start with this Repo] --> B{Choose Learning Focus}
-
-    B -->|LangGraph First| C[📊 Learn LangGraph Basics]
-    C --> D[⚙️ Build State Machines]
-    D --> E[🤖 Add Agents with Memory & Tools]
-    E --> F[🌐 Integrate MCP Messaging]
-    F --> G[🧠 Build Agentic AI Workflows]
-
-    B -->|MCP First| H[🔌 Understand MCP Protocol]
-    H --> I[💬 Message Passing & Context]
-    I --> J[📡 Connect Agents via MCP]
-    J --> G
-
-    B -->|Full Agentic Path| K[🧬 Combine LangGraph + MCP]
-    K --> L[🛠️ Add External Tools (Web, APIs, DBs)]
-    L --> G
-
-    G --> M[📍 Explore Agentic AI Curriculum]
-    M --> N[🪙 Contribute & Extend Repo]
-    N --> O[🌟 Become Agentic AI Expert]
-```
