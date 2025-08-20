@@ -2,6 +2,13 @@
 
 <div align="center">
 
+[**Foundations of Agentic AI**](#foundations-of-agentic-ai) |
+[**LangGraph Fundamentals**](#langgraph-fundamentals) |
+[**Advanced LangGraph**](#advanced-langgraph)  
+[**AI Agents**](#ai-agents) |
+[**Agentic RAG**](#agentic-rag) |
+[**Productization**](#productization)
+
 ![author](https://img.shields.io/badge/Author-mohd--faizy-red?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-Agentic%20Framework-blue?style=for-the-badge&logo=langchain&logoColor=white)
@@ -17,15 +24,17 @@
 
 
 
-<div align="center">
-  <img src="_img\banner.png" alt="Agentic AI Overview"/>
-</div>
 
 
 ## 📚 Table of Contents
 
+<div align="center">
+  <img src="_img\banner.png" alt="Agentic AI Overview"/>
+</div>
+
 - [🤖 AgenticAI using LangGraph \& MCP](#-agenticai-using-langgraph--mcp)
   - [📚 Table of Contents](#-table-of-contents)
+  - [🛣️ Roadmap](#️-roadmap)
   - [🧬 What is AgenticAI?](#-what-is-agenticai)
     - [🛠️ Core Components](#️-core-components)
       - [1. **Agents**](#1-agents)
@@ -46,6 +55,8 @@
 
 
 ---
+
+## 🛣️ Roadmap
 
 <div align="center">
   <img src="_img/curriculam.png" alt="AgenticAI Curriculum"/>
@@ -214,15 +225,13 @@ git clone https://github.com/mohd-faizy/Agentic_AI_using_LangGraph_-_MCP.git
 cd Agentic_AI_using_LangGraph_-_MCP
 
 # 2. Create & activate a virtual environment
-python -m venv venv
 uv venv
-# Unix/macOS
-source venv/bin/activate
-# Windows
-venv\Scripts\activate
+
+# Virtual .env activation
+source venv/bin/activate # Unix/macOS
+venv\Scripts\activate    # Windows
 
 # 3. Install dependencies
-pip install -r requirements.txt
 uv add -r requirements.txt
 
 ```
