@@ -2,17 +2,18 @@
 
 <div align="center">
 
-![author](https://img.shields.io/badge/author-mohd--faizy-red)
-![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-Agentic%20Framework-blue?logo=langchain&logoColor=white)
-![MCP](https://img.shields.io/badge/Model%20Context%20Protocol-MCP-purple)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-Model%20Serving-0C0D0E?logo=ollama&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-LLMs-yellow?logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-Tooling-00ADD8?logo=langchain&logoColor=white)
-![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![author](https://img.shields.io/badge/Author-mohd--faizy-red?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-Agentic%20Framework-blue?style=for-the-badge&logo=langchain&logoColor=white)
+![MCP](https://img.shields.io/badge/Model%20Context%20Protocol-MCP-purple?style=for-the-badge)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-Model%20Serving-0C0D0E?style=for-the-badge&logo=ollama&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-LLMs-yellow?style=for-the-badge&logo=huggingface&logoColor=black)
+![LangChain](https://img.shields.io/badge/LangChain-Tooling-00ADD8?style=for-the-badge&logo=langchain&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 </div>
+
 
 
 
@@ -45,6 +46,10 @@
 
 
 ---
+
+<div align="center">
+  <img src="_img/curriculam.png" alt="AgenticAI Curriculum"/>
+</div>
 
 ```mermaid
 graph TD
@@ -198,7 +203,7 @@ The Agentic AI system using **LangGraph** and the **Model Context Protocol (MCP)
 ## 📍 Agentic AI Curriculum
 
 <div align="center">
-  <img src="_img/curriculum.png" alt="AgenticAI Curriculum"/>
+  <img src="_img/map.png" alt="AgenticAI Curriculum"/>
 </div>
 
 ## ⚙️ Installation
