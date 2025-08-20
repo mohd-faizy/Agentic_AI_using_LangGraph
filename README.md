@@ -1,8 +1,6 @@
 # 🤖 AgenticAI using LangGraph & MCP
 
 <div align="center">
-  <img src="_img\banner.png" alt="Agentic AI Overview"/>
-</div>
 
 ![author](https://img.shields.io/badge/author-mohd--faizy-red)
 ![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
@@ -14,6 +12,13 @@
 ![LangChain](https://img.shields.io/badge/LangChain-Tooling-00ADD8?logo=langchain&logoColor=white)
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
+</div>
+
+
+
+<div align="center">
+  <img src="_img\banner.png" alt="Agentic AI Overview"/>
+</div>
 
 
 ## 📚 Table of Contents
@@ -38,6 +43,56 @@
   - [🪙Credits and Inspiration](#credits-and-inspiration)
   - [🔗Connect with me](#connect-with-me)
 
+
+---
+
+```mermaid
+graph TD
+    A[Start with Agentic AI Engineer Curriculum] --> B{Choose Module}
+    
+    B -->|Foundations| C[Foundations of Agentic AI]
+    C --> C1[Intro to Agentic AI]
+    C1 --> C2[Core Concepts]
+    C2 --> C3[Agent Architectures]
+    C3 --> C4[Multi-Agent Systems]
+    C4 --> C5[Design Patterns in Agentic Systems]
+
+    B -->|LangGraph Basics| D[LangGraph Fundamentals]
+    D --> D1[Intro to LangGraph]
+    D1 --> D2[Building LangGraphs]
+    D2 --> D3[State Management]
+    D3 --> D4[Async vs Sync Execution]
+    D4 --> D5[Integrating Tools & APIs]
+
+    B -->|Advanced LangGraph| E[Advanced LangGraph]
+    E --> E1[Dynamic Edges & Conditional Routing]
+    E1 --> E2[Memory & Checkpointing]
+    E2 --> E3[Event-Driven LangGraphs]
+    E3 --> E4[Multi-Agent LangGraphs]
+    E4 --> E5[Debugging & Monitoring]
+
+    B -->|AI Agents| F[AI Agents]
+    F --> F1[Agent Frameworks Overview]
+    F1 --> F2[Planning & Tool Usage]
+    F2 --> F3[Memory Types]
+    F3 --> F4[Decision-Making & Policies]
+    F4 --> F5[Conversational Agents]
+
+    B -->|Agentic RAG| G[Agentic RAG]
+    G --> G1[Fundamentals of RAG]
+    G1 --> G2[LangGraph + RAG]
+    G2 --> G3[Memory-Augmented RAG]
+    G3 --> G4[Multi-hop & Agentic Retrieval]
+    G4 --> G5[Tool-Augmented RAG Agents]
+
+    B -->|Productization| H[Productization]
+    H --> H1[Deployment Strategies]
+    H1 --> H2[Security & Observability]
+    H2 --> H3[Evaluation & Testing]
+    H3 --> H4[Agent Feedback Loops]
+    H4 --> H5[Scaling Architectures]
+
+```
 
 ---
 
@@ -203,3 +258,27 @@ This repository draws inspiration from the exceptional educational content devel
 ---
 
 <img src="https://github-readme-stats.vercel.app/api?username=mohd-faizy&show_icons=true" width=380px height=200px />
+
+```mermaid
+graph TD
+    A[🚀 Start with this Repo] --> B{Choose Learning Focus}
+
+    B -->|LangGraph First| C[📊 Learn LangGraph Basics]
+    C --> D[⚙️ Build State Machines]
+    D --> E[🤖 Add Agents with Memory & Tools]
+    E --> F[🌐 Integrate MCP Messaging]
+    F --> G[🧠 Build Agentic AI Workflows]
+
+    B -->|MCP First| H[🔌 Understand MCP Protocol]
+    H --> I[💬 Message Passing & Context]
+    I --> J[📡 Connect Agents via MCP]
+    J --> G
+
+    B -->|Full Agentic Path| K[🧬 Combine LangGraph + MCP]
+    K --> L[🛠️ Add External Tools (Web, APIs, DBs)]
+    L --> G
+
+    G --> M[📍 Explore Agentic AI Curriculum]
+    M --> N[🪙 Contribute & Extend Repo]
+    N --> O[🌟 Become Agentic AI Expert]
+```
