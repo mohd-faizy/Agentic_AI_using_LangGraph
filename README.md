@@ -1,4 +1,4 @@
-# 🤖 AgenticAI using LangGraph & MCP
+# 🤖 AgenticAI using LangGraph
 
 <div align="center">
 
@@ -12,11 +12,10 @@
 ![author](https://img.shields.io/badge/Author-mohd--faizy-red?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-Agentic%20Framework-blue?style=for-the-badge&logo=langchain&logoColor=white)
-![MCP](https://img.shields.io/badge/Model%20Context%20Protocol-MCP-purple?style=for-the-badge)
+![LangChain](https://img.shields.io/badge/LangChain-Tooling-00ADD8?style=for-the-badge&logo=langchain&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-Model%20Serving-0C0D0E?style=for-the-badge&logo=ollama&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-LLMs-yellow?style=for-the-badge&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-Tooling-00ADD8?style=for-the-badge&logo=langchain&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 </div>
@@ -25,6 +24,7 @@
 
 
 
+This repository demonstrates the implementation of Agentic AI systems using LangGraph for workflow orchestration for seamless agent communication. Unlike traditional Generative AI approaches, this framework enables **autonomous**, **stateful**, and **goal-oriented** AI systems capable of **complex multi-step reasoning** and **collaborative task execution**.
 
 ## 📚 Table of Contents
 
@@ -32,7 +32,7 @@
   <img src="_img\banner.png" alt="Agentic AI Overview"/>
 </div>
 
-- [🤖 AgenticAI using LangGraph \& MCP](#-agenticai-using-langgraph--mcp)
+- [🤖 AgenticAI using LangGraph](#-agenticai-using-langgraph)
   - [📚 Table of Contents](#-table-of-contents)
   - [🛣️ Roadmap](#️-roadmap)
   - [🧬 What is AgenticAI?](#-what-is-agenticai)
@@ -45,8 +45,9 @@
       - [6. **Task Router / Controller**](#6-task-router--controller)
       - [7. **Observability \& Debugging**](#7-observability--debugging)
     - [🧠 GenAI vs AgenticAI](#-genai-vs-agenticai)
-  - [📍 Agentic AI Curriculum](#-agentic-ai-curriculum)
+  - [📍Curriculum](#curriculum)
   - [⚙️ Installation](#️-installation)
+  - [🪧Quick Demo](#quick-demo)
   - [Contributing](#contributing)
   - [⚖ ➤ License](#--license)
   - [❤️ Support](#️-support)
@@ -59,56 +60,8 @@
 ## 🛣️ Roadmap
 
 <div align="center">
-  <img src="_img/curriculam.png" alt="AgenticAI Curriculum"/>
+  <img src="_img\agentic-AI-roadmap.png" alt="AgenticAI Curriculum"/>
 </div>
-
-```mermaid
-graph TD
-    A[Agentic AI Engineer Curriculum] --> B{Choose Module}
-    
-    B -->|Foundations| C[Foundations of Agentic AI]
-    C --> C1[Intro to Agentic AI]
-    C1 --> C2[Core Concepts]
-    C2 --> C3[Agent Architectures]
-    C3 --> C4[Multi-Agent Systems]
-    C4 --> C5[Design Patterns in Agentic Systems]
-
-    B -->|LangGraph Basics| D[LangGraph Fundamentals]
-    D --> D1[Intro to LangGraph]
-    D1 --> D2[Building LangGraphs]
-    D2 --> D3[State Management]
-    D3 --> D4[Async vs Sync Execution]
-    D4 --> D5[Integrating Tools & APIs]
-
-    B -->|Advanced LangGraph| E[Advanced LangGraph]
-    E --> E1[Dynamic Edges & Conditional Routing]
-    E1 --> E2[Memory & Checkpointing]
-    E2 --> E3[Event-Driven LangGraphs]
-    E3 --> E4[Multi-Agent LangGraphs]
-    E4 --> E5[Debugging & Monitoring]
-
-    B -->|AI Agents| F[AI Agents]
-    F --> F1[Agent Frameworks Overview]
-    F1 --> F2[Planning & Tool Usage]
-    F2 --> F3[Memory Types]
-    F3 --> F4[Decision-Making & Policies]
-    F4 --> F5[Conversational Agents]
-
-    B -->|Agentic RAG| G[Agentic RAG]
-    G --> G1[Fundamentals of RAG]
-    G1 --> G2[LangGraph + RAG]
-    G2 --> G3[Memory-Augmented RAG]
-    G3 --> G4[Multi-hop & Agentic Retrieval]
-    G4 --> G5[Tool-Augmented RAG Agents]
-
-    B -->|Productization| H[Productization]
-    H --> H1[Deployment Strategies]
-    H1 --> H2[Security & Observability]
-    H2 --> H3[Evaluation & Testing]
-    H3 --> H4[Agent Feedback Loops]
-    H4 --> H5[Scaling Architectures]
-
-```
 
 ---
 
@@ -211,7 +164,20 @@ The Agentic AI system using **LangGraph** and the **Model Context Protocol (MCP)
 
 ---
 
-## 📍 Agentic AI Curriculum
+## 📍Curriculum
+
+- **Learning Path**
+  - **Foundation Level**
+    - ***Foundations of Agentic AI***: Core concepts and principles
+    - ***LangGraph Fundamentals*****: State machines and workflow design**
+
+  - **Intermediate Level**
+    - ***Advanced LangGraph***: Complex routing and error handling
+    - ***AI Agents***: Agent design patterns and architectures
+
+  - **Advanced Level**
+    - ***Agentic RAG***: Retrieval-augmented generation with agents
+    - ***Production Deployment***: Scaling and monitoring strategies
 
 <div align="center">
   <img src="_img/map.png" alt="AgenticAI Curriculum"/>
@@ -233,8 +199,32 @@ venv\Scripts\activate    # Windows
 
 # 3. Install dependencies
 uv add -r requirements.txt
-
 ```
+
+## 🪧Quick Demo
+
+```python
+from langgraph import StateGraph
+from src.agents import PlannerAgent, ResearchAgent, ExecutionAgent
+
+# Initialize your first agentic workflow
+graph = StateGraph()
+graph.add_node("planner", PlannerAgent())
+graph.add_node("researcher", ResearchAgent()) 
+graph.add_node("executor", ExecutionAgent())
+
+# Run autonomous task execution
+result = graph.invoke({"task": "Research and summarize AI trends for 2025"})
+```
+
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## ⚖ ➤ License
 
