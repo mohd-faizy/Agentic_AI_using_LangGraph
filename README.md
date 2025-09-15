@@ -21,16 +21,16 @@
 </div>
 
 
-
+<div align="center">
+  <img src="_img\banner.png" alt="Agentic AI Overview"/>
+</div>
 
 
 This repository demonstrates the implementation of Agentic AI systems using LangGraph for workflow orchestration for seamless agent communication. Unlike traditional Generative AI approaches, this framework enables **autonomous**, **stateful**, and **goal-oriented** AI systems capable of **complex multi-step reasoning** and **collaborative task execution**.
 
 ## 📚 Table of Contents
 
-<div align="center">
-  <img src="_img\banner.png" alt="Agentic AI Overview"/>
-</div>
+
 
 - [🤖 AgenticAI using LangGraph](#-agenticai-using-langgraph)
   - [📚 Table of Contents](#-table-of-contents)
@@ -48,7 +48,7 @@ This repository demonstrates the implementation of Agentic AI systems using Lang
   - [📍Curriculum](#curriculum)
   - [⚙️ Installation](#️-installation)
   - [🪧Quick Demo](#quick-demo)
-  - [Contributing](#contributing)
+  - [🤝Contributing](#contributing)
   - [⚖ ➤ License](#--license)
   - [❤️ Support](#️-support)
   - [🪙Credits and Inspiration](#credits-and-inspiration)
@@ -218,7 +218,7 @@ result = graph.invoke({"task": "Research and summarize AI trends for 2025"})
 ```
 
 
-## Contributing
+## 🤝Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
