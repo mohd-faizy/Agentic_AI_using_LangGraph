@@ -250,7 +250,3 @@ This repository draws inspiration from the exceptional educational content devel
 [linkedin]: https://www.linkedin.com/in/mohd-faizy/
 [Portfolio]: https://ai.stackexchange.com/users/36737/faizy?tab=profile
 
----
-
-<img src="https://github-readme-stats.vercel.app/api?username=mohd-faizy&show_icons=true" width=380px height=200px />
-
