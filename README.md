@@ -1,256 +1,215 @@
-# 🤖 AgenticAI using LangGraph
-
 <div align="center">
+  <img src="_img/banner.png" alt="Agentic AI with LangGraph"/>
 
-[**Foundations of Agentic AI**](#foundations-of-agentic-ai) |
-[**LangGraph Fundamentals**](#langgraph-fundamentals) |
-[**Advanced LangGraph**](#advanced-langgraph)  
-[**AI Agents**](#ai-agents) |
-[**Agentic RAG**](#agentic-rag) |
-[**Productization**](#productization)
+  <h1>Agentic AI with LangGraph</h1>
+  
+  <p>
+    <b>Build autonomous, stateful, and goal-oriented AI systems capable of complex multi-step reasoning.</b>
+  </p>
 
-![author](https://img.shields.io/badge/Author-mohd--faizy-red?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-Agentic%20Framework-blue?style=for-the-badge&logo=langchain&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-Tooling-00ADD8?style=for-the-badge&logo=langchain&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-Model%20Serving-0C0D0E?style=for-the-badge&logo=ollama&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-LLMs-yellow?style=for-the-badge&logo=huggingface&logoColor=black)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+  <!-- Badges -->
+  <p>
+    <a href="https://github.com/mohd-faizy/Agentic_AI_using_LangGraph/blob/main/LICENSE">
+      <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License" />
+    </a>
+    <img src="https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+    <img src="https://img.shields.io/badge/LangGraph-Agentic%20Framework-blue?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph" />
+    <img src="https://img.shields.io/badge/LangChain-Tooling-00ADD8?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
+    <img src="https://img.shields.io/badge/Ollama-Local%20LLMs-0C0D0E?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
+  </p>
 
-</div>
-
-
-<div align="center">
-  <img src="_img\banner.png" alt="Agentic AI Overview"/>
-</div>
-
-
-This repository demonstrates the implementation of Agentic AI systems using LangGraph for workflow orchestration for seamless agent communication. Unlike traditional Generative AI approaches, this framework enables **autonomous**, **stateful**, and **goal-oriented** AI systems capable of **complex multi-step reasoning** and **collaborative task execution**.
-
-## 📚 Table of Contents
-
-
-
-- [🤖 AgenticAI using LangGraph](#-agenticai-using-langgraph)
-  - [📚 Table of Contents](#-table-of-contents)
-  - [🛣️ Roadmap](#️-roadmap)
-  - [🧬 What is AgenticAI?](#-what-is-agenticai)
-    - [🛠️ Core Components](#️-core-components)
-      - [1. **Agents**](#1-agents)
-      - [2. **LangGraph State Machine**](#2-langgraph-state-machine)
-      - [3. **MCP Message Layer**](#3-mcp-message-layer)
-      - [4. **Memory and Context Store**](#4-memory-and-context-store)
-      - [5. **Tools and Interfaces**](#5-tools-and-interfaces)
-      - [6. **Task Router / Controller**](#6-task-router--controller)
-      - [7. **Observability \& Debugging**](#7-observability--debugging)
-    - [🧠 GenAI vs AgenticAI](#-genai-vs-agenticai)
-  - [📍Curriculum](#curriculum)
-  - [⚙️ Installation](#️-installation)
-  - [🪧Quick Demo](#quick-demo)
-  - [🤝Contributing](#contributing)
-  - [⚖ ➤ License](#--license)
-  - [❤️ Support](#️-support)
-  - [🪙Credits and Inspiration](#credits-and-inspiration)
-  - [🔗Connect with me](#connect-with-me)
-
-
----
-
-## 🛣️ Roadmap
-
-<div align="center">
-  <img src="_img\agentic-AI-roadmap.png" alt="AgenticAI Curriculum"/>
+  <br />
 </div>
 
 ---
 
-## 🧬 What is AgenticAI?
+## 📖 Overview
 
-AgenticAI describes systems where:
+This repository demonstrates the comprehensive implementation of **Agentic AI** systems using **LangGraph**. Unlike traditional stateless Generative AI, this framework enables the creation of **autonomous agents** that can plan, execute, remember context, and collaborate to solve complex tasks.
 
-- **Autonomy**: Agents independently plan and execute subtasks  
-- **Orchestration**: Workflows are coordinated via a shared protocol (MCP)  
-- **Composability**: Agents and graphs are modular, reusable, and testable  
+It serves as both a **learning curriculum** and a **reference implementation** for building production-ready agentic workflows, covering everything from basic sequential chains to complex multi-agent orchestration with the **Model Context Protocol (MCP)**.
 
-These systems extend beyond classic Generative AI by providing **stateful**, **goal-oriented** workflows across multiple collaborative agents.
+### 🧬 What is AgenticAI?
 
-
-
-### 🛠️ Core Components
-
-The Agentic AI system using **LangGraph** and the **Model Context Protocol (MCP)** is built around the following modular and interoperable components:
-
-#### 1. **Agents**
-
-- **Description:** Autonomous entities with specific roles, memory, tools, and objectives.
-- **Examples:**
-
-  - `PlannerAgent`: Decomposes high-level goals into actionable tasks.
-  - `ResearchAgent`: Gathers relevant data or insights using tools like web search or RAG.
-  - `ExecutionAgent`: Executes low-level tasks and invokes tools or APIs.
-- **Features:** Stateful (via memory), tool-using, communicative (MCP-compliant messaging).
-
-#### 2. **LangGraph State Machine**
-
-- **Description:** The central orchestrator defining agent transitions, execution flow, and dynamic task routing.
-- **Features:**
-
-  - **Stateful DAG**: Nodes = agents/tools; Edges = routing logic.
-  - **Conditional Routing**: Based on task output or system state.
-  - **Concurrency & Retry Logic**: Supports parallel execution and fault tolerance.
-
-#### 3. **MCP Message Layer**
-
-- **Description:** Protocol for structured message exchange between agents.
-- **Features:**
-
-  - `Message`, `Thread`, `Step`, and `Run` objects.
-  - Agent reasoning traceability.
-  - Shared memory via `Thread` context.
-
-#### 4. **Memory and Context Store**
-
-- **Description:** Long- and short-term memory stores for agents.
-- **Types:**
-
-  - **Thread-level Memory**: Conversation history, decisions, intermediate steps.
-  - **Agent Memory**: Role-specific memory for internal context and learning.
-  - **External Vector DB** (e.g., FAISS, Weaviate): For RAG and semantic retrieval.
-
-#### 5. **Tools and Interfaces**
-
-- **Description:** External capabilities invoked by agents to augment reasoning.
-- **Examples:**
-
-  - Web search, code interpreter, database access, API clients.
-- **Integration:** Tools are abstracted as callable nodes or plugins within LangGraph.
-
-#### 6. **Task Router / Controller**
-
-- **Description:** A centralized or decentralized mechanism to assign subtasks to agents.
-- **Modes:**
-
-  - **Centralized Planning:** Planner decides the full task flow.
-  - **Distributed Negotiation:** Agents communicate and reassign tasks dynamically.
-
-#### 7. **Observability & Debugging**
-
-- **Description:** Logging, tracing, and monitoring components to track agent behavior and graph execution.
-- **Tools:** LangGraph visualizer, logging middleware, state inspection.
-
-
-### 🧠 GenAI vs AgenticAI
-
-| Feature                    | Generative AI (GenAI)                                                    | Agentic AI                                                                 |
-|----------------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| **Primary Output**         | Unstructured content (text, image, audio, video)                         | Structured outputs from autonomous task execution                         |
-| **Execution Flow**         | Stateless, single-step inference per prompt                             | Stateful, iterative multi-step reasoning with memory                      |
-| **Architecture**           | Monolithic or linear prompt pipelines                                    | Modular, event-driven multi-agent systems (e.g., DAGs in LangGraph)       |
-| **Decision-Making Paradigm**| Prompt-conditioned output generation                                     | Goal-oriented planning with long-term memory and dynamic context tracking |
-| **Autonomy**               | Passive response to human queries                                       | Proactive decision-making and self-directed task execution                |
-| **Control Flow Logic**     | Determined by prompt engineering                                        | Driven by finite-state machines, graphs, or reactive policies             |
-| **Memory & State Handling**| Typically ephemeral (no memory or limited through hacks like RAG)       | Persistent, structured memory for state tracking and dependency handling  |
-| **Interactivity Level**    | Low—requires repeated user input                                        | High—agents plan, recover from failure, and reattempt subtasks            |
-| **Tool Use & API Calling** | Manually scripted via code or prompt templates                          | Dynamically selected tools via agent/tool registries and MCP mechanisms   |
-| **Adaptability**           | Fixed behavior per prompt configuration                                 | Context-aware adaptation based on task state and environment              |
-| **Scalability**            | Scaling limited by model size and prompt length                         | Scales horizontally by orchestrating multiple specialized agents          |
-| **Debuggability**          | Opaque reasoning; difficult to trace                                    | Transparent workflows; traceable node-level decisions                     |
-| **Learning/Training**      | Pretrained foundation models; static behavior                           | Potential for online learning, fine-tuning per agent                      |
-| **Security/Guardrails**    | Prompt filtering, static constraints                                    | Embedded policies, role-based access, task-level validation               |
-| **Deployment Targets**     | Front-end apps, content generators, creative tools                      | Backend automation, orchestration layers, autonomous agent systems        |
-| **Example Systems**        | ChatGPT, Claude, Gemini, DALL·E 3, Sora, MusicLM, MidJourney             | AutoGPT, LangGraph + MCP, OpenDevin, OpenAgents, CrewAI, MetaAgent, Devika |
-
+AgenticAI describes systems defined by:
+*   **Autonomy**: Agents independently plan and execute subtasks.
+*   **Orchestration**: Workflows are coordinated via a shared protocol (MCP).
+*   **Composability**: Agents and graphs are modular, reusable, and testable.
 
 ---
 
-## 📍Curriculum
-
-- **Learning Path**
-  - **Foundation Level**
-    - ***Foundations of Agentic AI***: Core concepts and principles
-    - ***LangGraph Fundamentals*****: State machines and workflow design**
-
-  - **Intermediate Level**
-    - ***Advanced LangGraph***: Complex routing and error handling
-    - ***AI Agents***: Agent design patterns and architectures
-
-  - **Advanced Level**
-    - ***Agentic RAG***: Retrieval-augmented generation with agents
-    - ***Production Deployment***: Scaling and monitoring strategies
+## 🛣️ Roadmap & Curriculum
 
 <div align="center">
-  <img src="_img/map.png" alt="AgenticAI Curriculum"/>
+  <img src="_img/agentic-AI-roadmap.png" alt="AgenticAI Roadmap"/>
 </div>
 
-## ⚙️ Installation
+### 🎓 Learning Path
+*   **Foundation Level**
+    *   ***Foundations of Agentic AI***: Core concepts and principles
+    *   ***LangGraph Fundamentals***: State machines and workflow design
+*   **Intermediate Level**
+    *   ***Advanced LangGraph***: Complex routing and error handling
+    *   ***AI Agents***: Agent design patterns and architectures
+*   **Advanced Level**
+    *   ***Agentic RAG***: Retrieval-augmented generation with agents
+    *   ***Production Deployment***: Scaling and monitoring strategies
+
+<div align="center">
+  <img src="_img/map.png" alt="Curriculum Map"/>
+</div>
+
+---
+
+## 🛠️ Core Components
+
+The system is built around these modular and interoperable components:
+
+1.  **Agents**
+    *   *Description:* Autonomous entities with specific roles, memory, tools, and objectives.
+    *   *Examples:* `PlannerAgent` (decomposes goals), `ResearchAgent` (gathers data), `ExecutionAgent` (runs tasks).
+
+2.  **LangGraph State Machine**
+    *   *Description:* The central orchestrator defining agent transitions, execution flow, and dynamic task routing.
+    *   *Key Features:* Warning-Stateful DAG, Conditional Routing, Concurrency & Retries.
+
+3.  **MCP Message Layer**
+    *   *Description:* Protocol for structured message exchange including `Message`, `Thread`, `Step`, and `Run` objects to trace agent reasoning.
+
+4.  **Memory and Context Store**
+    *   *Description:* Long-term and short-term memory (Thread-level history, Agent-specific context, Vector DBs for RAG).
+
+5.  **Tools and Interfaces**
+    *   *Description:* External capabilities (Web search, Code interpreter, API clients) abstracted as callable nodes.
+
+6.  **Task Router / Controller**
+    *   *Description:* Mechanism for Centralized Planning or Distributed Negotiation to assign subtasks.
+
+7.  **Observability & Debugging**
+    *   *Description:* Logging, tracing, and monitoring via LangGraph visualizer and logging middleware.
+
+---
+
+## ⚖️ GenAI vs AgenticAI
+
+| Feature | Generative AI (GenAI) | Agentic AI |
+| :--- | :--- | :--- |
+| **Primary Output** | Unstructured content (text, image, audio) | Structured outputs from autonomous task execution |
+| **Execution Flow** | Stateless, single-step inference | Stateful, iterative multi-step reasoning with memory |
+| **Architecture** | Monolithic linear pipelines | Modular, event-driven multi-agent systems (DAGs) |
+| **Decision-Making** | Prompt-conditioned output | Goal-oriented planning & dynamic context tracking |
+| **Autonomy** | Passive response to queries | Proactive decision-making |
+| **Control Flow** | Prompt engineering | Finite-state machines & reactive policies |
+| **Memory** | Ephemeral (limited context) | Persistent, structured memory |
+| **Tool Use** | Manually scripted / templates | Dynamic tool selection via MCP |
+| **Scalability** | Limited by model/context size | Horizontal scaling via specialized agents |
+| **Debuggability** | Opaque reasoning | Transparent workflows & traceable nodes |
+
+---
+
+## 📂 Project Structure
 
 ```bash
-# 1. Clone the repo
-git clone https://github.com/mohd-faizy/Agentic_AI_using_LangGraph_-_MCP.git
-cd Agentic_AI_using_LangGraph_-_MCP
-
-# 2. Create & activate a virtual environment
-uv venv
-
-# Virtual .env activation
-source venv/bin/activate # Unix/macOS
-venv\Scripts\activate    # Windows
-
-# 3. Install dependencies
-uv add -r requirements.txt
+Agentic_AI_using_LangGraph/
+├── 01_Foundation_of_AgenticAI/       # Basic concepts and functional nodes
+├── 02_Sequential_&_Parallel_workflow/# Linear and parallel chain executions
+├── 03_Conditional_Workflow/          # Dynamic routing based on logic (Router)
+├── 04_Iterative_Workflows/           # Loops and retry mechanisms
+├── 05_Structured_ai_chatbot/         # Schema-driven agent responses
+├── 06_Conversational_ai_chatbot/     # Advanced chatbots with memory
+├── 07_LangsSmith/                    # Tracing and observability setup
+├── _img/                             # Assets and diagrams
+├── main.py                           # Entry point for testing
+└── requirements.txt                  # Project dependencies
 ```
-
-## 🪧Quick Demo
-
-```python
-from langgraph import StateGraph
-from src.agents import PlannerAgent, ResearchAgent, ExecutionAgent
-
-# Initialize your first agentic workflow
-graph = StateGraph()
-graph.add_node("planner", PlannerAgent())
-graph.add_node("researcher", ResearchAgent()) 
-graph.add_node("executor", ExecutionAgent())
-
-# Run autonomous task execution
-result = graph.invoke({"task": "Research and summarize AI trends for 2025"})
-```
-
-
-## 🤝Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## ⚖ ➤ License
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.  
-
-## ❤️ Support
-
-If you find this repository helpful, show your support by starring it! For questions or feedback, reach out on [Twitter(`X`)](https://twitter.com/F4izy).
-
-## 🪙Credits and Inspiration
-
-This repository draws inspiration from the exceptional educational content developed by Nitish, Krish Naik, and the DataCamp course `Developing LLMs with LangChain`. The implementations and examples provided here are grounded in their comprehensive tutorials on Generative AI, with a particular focus on LangChain and Hugging Face.
-
-## 🔗Connect with me
-
-➤ If you have questions or feedback, feel free to reach out!!!
-
-[<img align="left" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png" width="32px"/>][twitter]
-[<img align="left" src="https://cdn-icons-png.flaticon.com/512/145/145807.png" width="32px"/>][linkedin]
-[<img align="left" src="https://cdn-icons-png.flaticon.com/512/2626/2626299.png" width="32px"/>][Portfolio]
-
-[twitter]: https://twitter.com/F4izy
-[linkedin]: https://www.linkedin.com/in/mohd-faizy/
-[Portfolio]: https://ai.stackexchange.com/users/36737/faizy?tab=profile
 
 ---
 
-<img src="https://github-readme-stats.vercel.app/api?username=mohd-faizy&show_icons=true" width=380px height=200px />
+## 🚀 Getting Started
 
+### Prerequisites
+*   **Python 3.9+**
+*   **Git**
+*   **API Keys**: OpenAI, Anthropic, or HuggingFace.
+
+### Installation
+
+We recommend using `uv` for fast dependency management, but standard `pip` works as well.
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/mohd-faizy/Agentic_AI_using_LangGraph.git
+    cd Agentic_AI_using_LangGraph
+    ```
+
+2.  **Set up the environment**
+
+    *Using `uv` (Recommended):*
+    ```bash
+    uv venv
+    source .venv/bin/activate       # macOS/Linux
+    .venv\Scripts\activate          # Windows
+    uv add -r requirements.txt
+    ```
+
+    *Using `pip`:*
+    ```bash
+    python -m venv venv
+    source venv/bin/activate        # macOS/Linux
+    venv\Scripts\activate           # Windows
+    pip install -r requirements.txt
+    ```
+
+3.  **Configuration**
+    Create a `.env` file:
+    ```bash
+    cp .env.example .env
+    ```
+    Add your keys:
+    ```ini
+    OPENAI_API_KEY=sk-...
+    LANGCHAIN_API_KEY=...
+    ```
+
+## ⚡ Quick Start
+
+```python
+from langgraph.graph import StateGraph, END
+from typing import TypedDict
+
+# 1. Define State
+class AgentState(TypedDict):
+    messages: list
+
+# 2. Define Nodes
+def agent_node(state: AgentState):
+    return {"messages": ["Agent processing..."]}
+
+# 3. Build Graph
+workflow = StateGraph(AgentState)
+workflow.add_node("agent", agent_node)
+workflow.set_entry_point("agent")
+workflow.add_edge("agent", END)
+
+# 4. Compile & Run
+app = workflow.compile()
+print(app.invoke({"messages": ["Init"]}))
+```
+
+---
+
+## 🤝 Contributing & Support
+
+Contributions are welcome! If you find this repository helpful, please **star** it!
+
+<div align="center">
+  <br>
+  <p><b>Connect with me</b></p>
+  <a href="https://twitter.com/F4izy"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/mohd-faizy/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://github.com/mohd-faizy"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
+</div>
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
