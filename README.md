@@ -107,21 +107,21 @@ The system is built around these modular and interoperable components:
 
 ---
 
-## 📂 Project Structure
+## 📂 Notebook Index
 
-```bash
-Agentic_AI_using_LangGraph/
-├── 01_Foundation_of_AgenticAI/       # Basic concepts and functional nodes
-├── 02_Sequential_&_Parallel_workflow/# Linear and parallel chain executions
-├── 03_Conditional_Workflow/          # Dynamic routing based on logic (Router)
-├── 04_Iterative_Workflows/           # Loops and retry mechanisms
-├── 05_Structured_ai_chatbot/         # Schema-driven agent responses
-├── 06_Conversational_ai_chatbot/     # Advanced chatbots with memory
-├── 07_LangsSmith/                    # Tracing and observability setup
-├── _img/                             # Assets and diagrams
-├── main.py                           # Entry point for testing
-└── requirements.txt                  # Project dependencies
-```
+| S.No | Notebook Name | Topic Covered | Link |
+| :---: | :--- | :--- | :--- |
+| **01** | `01_RoadMap.ipynb` | Comprehensive roadmap for learning Agentic AI with LangGraph | [![Open Notebook](https://img.shields.io/badge/Open_Notebook-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/01_RoadMap.ipynb) |
+| **02** | `02_GenAI_vs_AgenticAI.ipynb` | Differences between Generative AI and Agentic AI | [![Open Notebook](https://img.shields.io/badge/Open_Notebook-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/02_GenAI_vs_AgenticAI.ipynb) |
+| **03** | `03_AgenticAI_Core_Concepts.ipynb` | Core concepts and principles of Agentic AI | [![Open Notebook](https://img.shields.io/badge/Open_Notebook-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/03_AgenticAI_Core_Concepts.ipynb) |
+| **04** | `04_LangChain_vs_langGraph.ipynb` | Comparison between LangChain and LangGraph | [![Open Notebook](https://img.shields.io/badge/Open_Notebook-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/04_LangChain_vs_langGraph.ipynb) |
+| **05** | `05_LangGraph_Core_Concepts.ipynb` | Core concepts and architecture of LangGraph | [![Open Notebook](https://img.shields.io/badge/Open_Notebook-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/05_LangGraph_Core_Concepts.ipynb) |
+| **06** | `06_Sequential_Workflows.ipynb` | Building linear and sequential chain executions | [![Open Notebook](https://img.shields.io/badge/Open_Notebook-1572B6?style=flat&logo=Jupyter&logoColor=white)](02_%20Sequential_&_Parallel_workflow/06_Sequential_Workflows.ipynb) |
+| **07** | `07_Parallel_workflow.ipynb` | Implementing parallel workflow executions | [![Open Notebook](https://img.shields.io/badge/Open_Notebook-1572B6?style=flat&logo=Jupyter&logoColor=white)](02_%20Sequential_&_Parallel_workflow/07_Parallel_workflow.ipynb) |
+| **08** | `08_Conditional_Workflow.ipynb` | Dynamic routing based on logic (Router) | [![Open Notebook](https://img.shields.io/badge/Open_Notebook-1572B6?style=flat&logo=Jupyter&logoColor=white)](03_Conditional_Workflow/08_Conditional_Workflow.ipynb) |
+| **09** | `09_Iterative_workflows.ipynb` | Creating loops and retry mechanisms in workflows | [![Open Notebook](https://img.shields.io/badge/Open_Notebook-1572B6?style=flat&logo=Jupyter&logoColor=white)](04_Iterative_Workflows/09_Iterative_workflows.ipynb) |
+| **10** | `10_Chatbot.ipynb` | Building a structured AI chatbot | [![Open Notebook](https://img.shields.io/badge/Open_Notebook-1572B6?style=flat&logo=Jupyter&logoColor=white)](05_Structured_ai_chatbot/10_Chatbot.ipynb) |
+| **11** | `11_Persistence_LangGraph.ipynb` | Implementing memory and persistence in LangGraph workflows | [![Open Notebook](https://img.shields.io/badge/Open_Notebook-1572B6?style=flat&logo=Jupyter&logoColor=white)](05_Structured_ai_chatbot/11_Persistence_LangGraph.ipynb) |
 
 ---
 
