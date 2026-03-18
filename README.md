@@ -122,6 +122,15 @@ The system is built around these modular and interoperable components:
 | **09** | `09_Iterative_workflows.ipynb` | Creating loops and retry mechanisms in workflows | [![Open Notebook](https://img.shields.io/badge/Open_Notebook-1572B6?style=flat&logo=Jupyter&logoColor=white)](04_Iterative_Workflows/09_Iterative_workflows.ipynb) |
 | **10** | `10_Chatbot.ipynb` | Building a structured AI chatbot | [![Open Notebook](https://img.shields.io/badge/Open_Notebook-1572B6?style=flat&logo=Jupyter&logoColor=white)](05_Structured_ai_chatbot/10_Chatbot.ipynb) |
 | **11** | `11_Persistence_LangGraph.ipynb` | Implementing memory and persistence in LangGraph workflows | [![Open Notebook](https://img.shields.io/badge/Open_Notebook-1572B6?style=flat&logo=Jupyter&logoColor=white)](05_Structured_ai_chatbot/11_Persistence_LangGraph.ipynb) |
+| **12** | `12_LangsSmith.ipynb` | LangSmith integration and tracing | ⏳ *Pending Upload* |
+| **13** | `13_Observability_in_LangGraph.ipynb` | Observability and monitoring in LangGraph | ⏳ *Pending Upload* |
+| **14** | `14_Tools_in_LangGraph.ipynb` | Using tools with LangGraph agents | ⏳ *Pending Upload* |
+| **15** | `15_MCP_Client.ipynb` | Model Context Protocol implementation | ⏳ *Pending Upload* |
+| **16** | `16_RAG_using_LangGraph.ipynb` | Retrieval-Augmented Generation workflows | ⏳ *Pending Upload* |
+| **17** | `17_Human_in_the_Loop.ipynb` | Human-in-the-loop approvals and modifications | ⏳ *Pending Upload* |
+| **18** | `18_Subgraphs.ipynb` | Building and orchestrating subgraphs | ⏳ *Pending Upload* |
+| **19** | `19_Memory_in_LangGraph.ipynb` | Advanced memory management with LangGraph | ⏳ *Pending Upload* |
+| **20** | `20_Projects.ipynb` | End-to-end Agentic AI projects | ⏳ *Pending Upload* |
 
 ---
 
