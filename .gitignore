@@ -20,3 +20,6 @@ chroma_db/
 
 # Jupyter Notebook checkpoints (optional)
 .ipynb_checkpoints/
+
+# MacOS files
+.DS_Store
