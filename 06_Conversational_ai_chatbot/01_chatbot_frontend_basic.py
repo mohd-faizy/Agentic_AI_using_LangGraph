@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain_core.messages import HumanMessage
-from chatbot_backend import chatbot # from chatbot_frontend.py
+from chatbot_backend import chatbot             # from chatbot_frontend.py
 
 # configuration passed to the chatbot
 CONFIG = {'configurable': {'thread_id': 'thread-1'}}
@@ -19,7 +19,6 @@ for message in st.session_state['message_history']:
 user_input = st.chat_input('Type here...')
 
 if user_input:
-
     st.session_state['message_history'].append({'role': 'user', 'content': user_input})       # Append the user's message to session history
     # Display the user's message in the chat interface
     with st.chat_message('user'):
