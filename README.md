@@ -12,11 +12,11 @@
     <a href="https://github.com/mohd-faizy/Agentic_AI_using_LangGraph/blob/main/LICENSE">
       <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License" />
     </a>
-    <a href="https://github.com/mohd-faizy/AI-Algo-Reference/stargazers">
-      <img src="https://img.shields.io/github/stars/mohd-faizy/AI-Algo-Reference?style=for-the-badge&logo=github&color=D97706&cacheBust=true" alt="GitHub Stars" />
+    <a href="https://github.com/mohd-faizy/Agentic_AI_using_LangGraph/stargazers">
+      <img src="https://img.shields.io/github/stars/mohd-faizy/Agentic_AI_using_LangGraph?style=for-the-badge&logo=github&color=D97706" alt="GitHub Stars" />
     </a>
-    <a href="https://github.com/mohd-faizy/AI-Algo-Reference/network/members">
-      <img src="https://img.shields.io/github/forks/mohd-faizy/AI-Algo-Reference?style=for-the-badge&logo=github&color=2563EB&cacheBust=true" alt="GitHub Forks" />
+    <a href="https://github.com/mohd-faizy/Agentic_AI_using_LangGraph/network/members">
+      <img src="https://img.shields.io/github/forks/mohd-faizy/Agentic_AI_using_LangGraph?style=for-the-badge&logo=github&color=2563EB" alt="GitHub Forks" />
     </a>
     <img src="https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
     <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
