@@ -151,48 +151,48 @@ The system is built around these **7 modular, interoperable components**:
 
 ### Phase 1 — Foundations
 
-| # | Module | Topic | Status | Link |
-|:---:|:---|:---|:---:|:---:|
-| 01 | **RoadMap** | Comprehensive learning roadmap for Agentic AI | [x] | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/01_RoadMap.ipynb) |
-| 02 | **GenAI vs AgenticAI** | Understanding the paradigm shift | [x] | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/02_GenAI_vs_AgenticAI.ipynb) |
-| 03 | **Core Concepts** | Agents, tools, memory, planning | [x] | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/03_AgenticAI_Core_Concepts.ipynb) |
-| 04 | **LangChain vs LangGraph** | When to use which framework | [x] | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/04_LangChain_vs_langGraph.ipynb) |
-| 05 | **LangGraph Core** | State machines, nodes, edges, and graph design | [x] | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/05_LangGraph_Core_Concepts.ipynb) |
+| # | Module | Topic | Link |
+|:---:|:---|:---|:---:|
+| 01 | **RoadMap** | Comprehensive learning roadmap for Agentic AI | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/01_RoadMap.ipynb) |
+| 02 | **GenAI vs AgenticAI** | Understanding the paradigm shift | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/02_GenAI_vs_AgenticAI.ipynb) |
+| 03 | **Core Concepts** | Agents, tools, memory, planning | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/03_AgenticAI_Core_Concepts.ipynb) |
+| 04 | **LangChain vs LangGraph** | When to use which framework | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/04_LangChain_vs_langGraph.ipynb) |
+| 05 | **LangGraph Core** | State machines, nodes, edges, and graph design | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/05_LangGraph_Core_Concepts.ipynb) |
 
 ### Phase 2 — Workflow Patterns
 
-| # | Module | Topic | Status | Link |
-|:---:|:---|:---|:---:|:---:|
-| 06 | **Sequential Workflows** | Linear chain execution and data flow | [x] | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](02_%20Sequential_%26_Parallel_workflow/06_Sequential_Workflows.ipynb) |
-| 07 | **Parallel Workflows** | Fan-out / fan-in concurrent execution | [x] | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](02_%20Sequential_%26_Parallel_workflow/07_Parallel_workflow.ipynb) |
-| 08 | **Conditional Workflows** | Dynamic routing, branching, and router patterns | [x] | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](03_Conditional_Workflow/08_Conditional_Workflow.ipynb) |
-| 09 | **Iterative Workflows** | Loops, retries, and self-correcting flows | [x] | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](04_Iterative_Workflows/09_Iterative_workflows.ipynb) |
+| # | Module | Topic | Link |
+|:---:|:---|:---|:---:|
+| 06 | **Sequential Workflows** | Linear chain execution and data flow | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](02_%20Sequential_%26_Parallel_workflow/06_Sequential_Workflows.ipynb) |
+| 07 | **Parallel Workflows** | Fan-out / fan-in concurrent execution | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](02_%20Sequential_%26_Parallel_workflow/07_Parallel_workflow.ipynb) |
+| 08 | **Conditional Workflows** | Dynamic routing, branching, and router patterns | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](03_Conditional_Workflow/08_Conditional_Workflow.ipynb) |
+| 09 | **Iterative Workflows** | Loops, retries, and self-correcting flows | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](04_Iterative_Workflows/09_Iterative_workflows.ipynb) |
 
 ### Phase 3 — Chatbots & Persistence
 
-| # | Module | Topic | Status | Link |
-|:---:|:---|:---|:---:|:---:|
-| 10 | **Structured Chatbot** | Building a structured AI chatbot with LangGraph | [x] | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](05_Structured_ai_chatbot/10_Chatbot.ipynb) |
-| 11 | **Persistence** | Checkpointing, state recovery, and SQLite persistence | [x] | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](05_Structured_ai_chatbot/11_Persistence_LangGraph.ipynb) |
-| 12 | **LangSmith** | Tracing, debugging, and monitoring with LangSmith | [ ] | Coming Soon |
-| 13 | **Observability** | Production observability and logging strategies | [ ] | Coming Soon |
+| # | Module | Topic | Link |
+|:---:|:---|:---|:---:|
+| 10 | **Structured Chatbot** | Building a structured AI chatbot with LangGraph | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](05_Structured_ai_chatbot/10_Chatbot.ipynb) |
+| 11 | **Persistence** | Checkpointing, state recovery, and SQLite persistence | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](05_Structured_ai_chatbot/11_Persistence_LangGraph.ipynb) |
+| 12 | **LangSmith** | Tracing, debugging, and monitoring with LangSmith | To be uploaded |
+| 13 | **Observability** | Production observability and logging strategies | To be uploaded |
 
 ### Phase 4 — Tools, MCP & RAG
 
-| # | Module | Topic | Status | Link |
-|:---:|:---|:---|:---:|:---:|
-| 14 | **Tools in LangGraph** | Tool binding, custom tools, and dynamic selection | [ ] | Coming Soon |
-| 15 | **MCP Client** | Model Context Protocol for agent-tool communication | [ ] | Coming Soon |
-| 16 | **RAG with LangGraph** | Agentic RAG: retrieve, reason, generate | [ ] | Coming Soon |
+| # | Module | Topic | Link |
+|:---:|:---|:---|:---:|
+| 14 | **Tools in LangGraph** | Tool binding, custom tools, and dynamic selection | To be uploaded |
+| 15 | **MCP Client** | Model Context Protocol for agent-tool communication | To be uploaded |
+| 16 | **RAG with LangGraph** | Agentic RAG: retrieve, reason, generate | To be uploaded |
 
 ### Phase 5 — Advanced & Production
 
-| # | Module | Topic | Status | Link |
-|:---:|:---|:---|:---:|:---:|
-| 17 | **Human-in-the-Loop** | Approval gates, human feedback, and escalation | [ ] | Coming Soon |
-| 18 | **Subgraphs** | Composable, nested graph architectures | [ ] | Coming Soon |
-| 19 | **Advanced Memory** | Long-term memory, vector stores, and context management | [ ] | Coming Soon |
-| 20 | **Capstone Projects** | End-to-end production-grade agentic systems | [ ] | Coming Soon |
+| # | Module | Topic | Link |
+|:---:|:---|:---|:---:|
+| 17 | **Human-in-the-Loop** | Approval gates, human feedback, and escalation | To be uploaded |
+| 18 | **Subgraphs** | Composable, nested graph architectures | To be uploaded |
+| 19 | **Advanced Memory** | Long-term memory, vector stores, and context management | To be uploaded |
+| 20 | **Capstone Projects** | End-to-end production-grade agentic systems | To be uploaded |
 
 ---
 
