@@ -5,7 +5,7 @@
 
   <br/>
 
-  <h1>🧠 Agentic AI with LangGraph</h1>
+  <h1>Agentic AI with LangGraph</h1>
 
   <h3>
     Build autonomous, stateful, and goal-oriented AI systems<br/>
@@ -63,12 +63,12 @@
 
 ---
 
-## 🔍 What is This?
+## What is This?
 
 > **A comprehensive, hands-on curriculum for mastering Agentic AI** — from foundational concepts to production-grade multi-agent orchestration — all built on top of [LangGraph](https://langchain-ai.github.io/langgraph/).
 
 
-## 🧬 GenAI vs Agentic AI — Why Agents?
+## GenAI vs Agentic AI — Why Agents?
 
 Understanding the paradigm shift from passive generation to active reasoning:
 
@@ -91,7 +91,7 @@ Understanding the paradigm shift from passive generation to active reasoning:
 
 ---
 
-## 🏛️ Architecture
+## Architecture
 
 The system is built around these **7 modular, interoperable components**:
 
@@ -118,7 +118,7 @@ The system is built around these **7 modular, interoperable components**:
 
 ---
 
-## 🛣️ Roadmap 
+## Roadmap 
 
 <div align="center">
   <img src="assets/agentic-AI-roadmap.png" alt="AgenticAI Roadmap" width="100%"/>
@@ -126,9 +126,9 @@ The system is built around these **7 modular, interoperable components**:
 
 <br/>
 
-## 📚 Curriculum 
+## Curriculum 
 
-### 🎓 Learning Path
+### Learning Path
 * **Foundation Level**
   * *Foundations of Agentic AI:* Core concepts and principles
   * *LangGraph Fundamentals:* State machines and workflow design
@@ -145,7 +145,7 @@ The system is built around these **7 modular, interoperable components**:
 
 ---
 
-## 📓 Notebook Index
+## Notebook Index
 
 > A comprehensive collection of modules covering the full spectrum of Agentic AI development.
 
@@ -153,94 +153,94 @@ The system is built around these **7 modular, interoperable components**:
   <img src="assets/learing_path.png" alt="Learning Path" width="100%"/>
 </div>
 
-### 🟢 Phase 1 — Foundations
+### Phase 1 — Foundations
 
 | # | Module | Topic | Status | Link |
 |:---:|:---|:---|:---:|:---:|
-| 01 | **RoadMap** | Comprehensive learning roadmap for Agentic AI | ✅ | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/01_RoadMap.ipynb) |
-| 02 | **GenAI vs AgenticAI** | Understanding the paradigm shift | ✅ | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/02_GenAI_vs_AgenticAI.ipynb) |
-| 03 | **Core Concepts** | Agents, tools, memory, planning | ✅ | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/03_AgenticAI_Core_Concepts.ipynb) |
-| 04 | **LangChain vs LangGraph** | When to use which framework | ✅ | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/04_LangChain_vs_langGraph.ipynb) |
-| 05 | **LangGraph Core** | State machines, nodes, edges, and graph design | ✅ | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/05_LangGraph_Core_Concepts.ipynb) |
+| 01 | **RoadMap** | Comprehensive learning roadmap for Agentic AI | [x] | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/01_RoadMap.ipynb) |
+| 02 | **GenAI vs AgenticAI** | Understanding the paradigm shift | [x] | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/02_GenAI_vs_AgenticAI.ipynb) |
+| 03 | **Core Concepts** | Agents, tools, memory, planning | [x] | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/03_AgenticAI_Core_Concepts.ipynb) |
+| 04 | **LangChain vs LangGraph** | When to use which framework | [x] | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/04_LangChain_vs_langGraph.ipynb) |
+| 05 | **LangGraph Core** | State machines, nodes, edges, and graph design | [x] | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](01_Foundation_of_AgenticAI/05_LangGraph_Core_Concepts.ipynb) |
 
-### 🔵 Phase 2 — Workflow Patterns
-
-| # | Module | Topic | Status | Link |
-|:---:|:---|:---|:---:|:---:|
-| 06 | **Sequential Workflows** | Linear chain execution and data flow | ✅ | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](02_%20Sequential_%26_Parallel_workflow/06_Sequential_Workflows.ipynb) |
-| 07 | **Parallel Workflows** | Fan-out / fan-in concurrent execution | ✅ | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](02_%20Sequential_%26_Parallel_workflow/07_Parallel_workflow.ipynb) |
-| 08 | **Conditional Workflows** | Dynamic routing, branching, and router patterns | ✅ | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](03_Conditional_Workflow/08_Conditional_Workflow.ipynb) |
-| 09 | **Iterative Workflows** | Loops, retries, and self-correcting flows | ✅ | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](04_Iterative_Workflows/09_Iterative_workflows.ipynb) |
-
-### 🟡 Phase 3 — Chatbots & Persistence
+### Phase 2 — Workflow Patterns
 
 | # | Module | Topic | Status | Link |
 |:---:|:---|:---|:---:|:---:|
-| 10 | **Structured Chatbot** | Building a structured AI chatbot with LangGraph | ✅ | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](05_Structured_ai_chatbot/10_Chatbot.ipynb) |
-| 11 | **Persistence** | Checkpointing, state recovery, and SQLite persistence | ✅ | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](05_Structured_ai_chatbot/11_Persistence_LangGraph.ipynb) |
-| 12 | **LangSmith** | Tracing, debugging, and monitoring with LangSmith | 🔜 | ⏳ Coming Soon |
-| 13 | **Observability** | Production observability and logging strategies | 🔜 | ⏳ Coming Soon |
+| 06 | **Sequential Workflows** | Linear chain execution and data flow | [x] | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](02_%20Sequential_%26_Parallel_workflow/06_Sequential_Workflows.ipynb) |
+| 07 | **Parallel Workflows** | Fan-out / fan-in concurrent execution | [x] | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](02_%20Sequential_%26_Parallel_workflow/07_Parallel_workflow.ipynb) |
+| 08 | **Conditional Workflows** | Dynamic routing, branching, and router patterns | [x] | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](03_Conditional_Workflow/08_Conditional_Workflow.ipynb) |
+| 09 | **Iterative Workflows** | Loops, retries, and self-correcting flows | [x] | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](04_Iterative_Workflows/09_Iterative_workflows.ipynb) |
 
-### 🟠 Phase 4 — Tools, MCP & RAG
-
-| # | Module | Topic | Status | Link |
-|:---:|:---|:---|:---:|:---:|
-| 14 | **Tools in LangGraph** | Tool binding, custom tools, and dynamic selection | 🔜 | ⏳ Coming Soon |
-| 15 | **MCP Client** | Model Context Protocol for agent-tool communication | 🔜 | ⏳ Coming Soon |
-| 16 | **RAG with LangGraph** | Agentic RAG: retrieve, reason, generate | 🔜 | ⏳ Coming Soon |
-
-### 🔴 Phase 5 — Advanced & Production
+### Phase 3 — Chatbots & Persistence
 
 | # | Module | Topic | Status | Link |
 |:---:|:---|:---|:---:|:---:|
-| 17 | **Human-in-the-Loop** | Approval gates, human feedback, and escalation | 🔜 | ⏳ Coming Soon |
-| 18 | **Subgraphs** | Composable, nested graph architectures | 🔜 | ⏳ Coming Soon |
-| 19 | **Advanced Memory** | Long-term memory, vector stores, and context management | 🔜 | ⏳ Coming Soon |
-| 20 | **Capstone Projects** | End-to-end production-grade agentic systems | 🔜 | ⏳ Coming Soon |
+| 10 | **Structured Chatbot** | Building a structured AI chatbot with LangGraph | [x] | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](05_Structured_ai_chatbot/10_Chatbot.ipynb) |
+| 11 | **Persistence** | Checkpointing, state recovery, and SQLite persistence | [x] | [![Open](https://img.shields.io/badge/Open-1572B6?style=flat&logo=Jupyter&logoColor=white)](05_Structured_ai_chatbot/11_Persistence_LangGraph.ipynb) |
+| 12 | **LangSmith** | Tracing, debugging, and monitoring with LangSmith | [ ] | Coming Soon |
+| 13 | **Observability** | Production observability and logging strategies | [ ] | Coming Soon |
+
+### Phase 4 — Tools, MCP & RAG
+
+| # | Module | Topic | Status | Link |
+|:---:|:---|:---|:---:|:---:|
+| 14 | **Tools in LangGraph** | Tool binding, custom tools, and dynamic selection | [ ] | Coming Soon |
+| 15 | **MCP Client** | Model Context Protocol for agent-tool communication | [ ] | Coming Soon |
+| 16 | **RAG with LangGraph** | Agentic RAG: retrieve, reason, generate | [ ] | Coming Soon |
+
+### Phase 5 — Advanced & Production
+
+| # | Module | Topic | Status | Link |
+|:---:|:---|:---|:---:|:---:|
+| 17 | **Human-in-the-Loop** | Approval gates, human feedback, and escalation | [ ] | Coming Soon |
+| 18 | **Subgraphs** | Composable, nested graph architectures | [ ] | Coming Soon |
+| 19 | **Advanced Memory** | Long-term memory, vector stores, and context management | [ ] | Coming Soon |
+| 20 | **Capstone Projects** | End-to-end production-grade agentic systems | [ ] | Coming Soon |
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Agentic_AI_using_LangGraph/
 │
-├── 📘 01_Foundation_of_AgenticAI/          # Core concepts & fundamentals
+├── 01_Foundation_of_AgenticAI/          # Core concepts & fundamentals
 │   ├── 01_RoadMap.ipynb
 │   ├── 02_GenAI_vs_AgenticAI.ipynb
 │   ├── 03_AgenticAI_Core_Concepts.ipynb
 │   ├── 04_LangChain_vs_langGraph.ipynb
 │   └── 05_LangGraph_Core_Concepts.ipynb
 │
-├── ⛓️ 02_Sequential_&_Parallel_workflow/   # Linear & concurrent execution
+├── 02_Sequential_&_Parallel_workflow/   # Linear & concurrent execution
 │   ├── 06_Sequential_Workflows.ipynb
 │   └── 07_Parallel_workflow.ipynb
 │
-├── 🔀 03_Conditional_Workflow/             # Dynamic routing & branching
+├── 03_Conditional_Workflow/             # Dynamic routing & branching
 │   └── 08_Conditional_Workflow.ipynb
 │
-├── 🔄 04_Iterative_Workflows/             # Loops, retries, self-correction
+├── 04_Iterative_Workflows/             # Loops, retries, self-correction
 │   └── 09_Iterative_workflows.ipynb
 │
-├── 💬 05_Structured_ai_chatbot/           # Chatbot + persistence
+├── 05_Structured_ai_chatbot/           # Chatbot + persistence
 │   ├── 10_Chatbot.ipynb
 │   └── 11_Persistence_LangGraph.ipynb
 │
-├── 🖥️ 06_Conversational_ai_chatbot/       # Streamlit chatbot apps
+├── 06_Conversational_ai_chatbot/       # Streamlit chatbot apps
 │   ├── 01_chatbot_frontend_basic.py
 │   ├── 02_chatbot_frontend_streaming.py
 │   ├── 03_Chatbot_frontend_threading.py
 │   └── 04_Chatbot_SQLite.py
 │
-├── 🔍 07_LangsSmith/                      # LangSmith tracing (🔜)
-├── 📊 08_Observability_in_LangGraph/       # Monitoring & logging (🔜)
-├── 🔧 09_Tools_in_LangGraph/              # Tool integration (🔜)
-├── 📡 10_MCP_Client/                       # Model Context Protocol (🔜)
-├── 📚 11_RAG_using_LangGraph/              # Agentic RAG (🔜)
-├── 🙋 12_Human_in_the_Loop/               # Human approval gates (🔜)
-├── 🧩 13_Subgraphs/                        # Nested graphs (🔜)
-├── 🧠 14_Memory_in_LangGraph/             # Advanced memory (🔜)
-├── 🏗️ 15_Projects/                         # Capstone projects (🔜)
+├── 07_LangsSmith/                      # LangSmith tracing (WIP)
+├── 08_Observability_in_LangGraph/       # Monitoring & logging (WIP)
+├── 09_Tools_in_LangGraph/              # Tool integration (WIP)
+├── 10_MCP_Client/                       # Model Context Protocol (WIP)
+├── 11_RAG_using_LangGraph/              # Agentic RAG (WIP)
+├── 12_Human_in_the_Loop/               # Human approval gates (WIP)
+├── 13_Subgraphs/                        # Nested graphs (WIP)
+├── 14_Memory_in_LangGraph/             # Advanced memory (WIP)
+├── 15_Projects/                         # Capstone projects (WIP)
 │
 ├── assets/                                 # Images & diagrams
 ├── .env.example                            # Environment variable template
@@ -251,7 +251,7 @@ Agentic_AI_using_LangGraph/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -261,7 +261,7 @@ Agentic_AI_using_LangGraph/
 | Git | Latest | Version control |
 | API Key | Any one: OpenAI / Anthropic / Gemini / Groq | LLM access |
 
-### ⚙️ Installation
+### Installation
 
 <details>
 <summary><b>Option 1: Using <code>uv</code></b> (Recommended — fastest)</summary>
@@ -301,7 +301,7 @@ pip install -r requirements.txt
 
 </details>
 
-### 🔑 Configuration
+### Configuration
 
 ```bash
 cp .env.example .env
@@ -322,7 +322,7 @@ LANGCHAIN_API_KEY=lsv2_...
 LANGSMITH_TRACING=true
 ```
 
-### ⚡ Your First Agent
+### Your First Agent
 
 ```python
 from langgraph.graph import StateGraph, END
@@ -338,21 +338,21 @@ class AgentState(TypedDict):
 def planner(state: AgentState) -> dict:
     """Plan the next action based on current state."""
     return {
-        "messages": ["🎯 Planner: Analyzing goal and creating action plan..."],
+        "messages": ["[Planner]: Analyzing goal and creating action plan..."],
         "step_count": state.get("step_count", 0) + 1,
     }
 
 def executor(state: AgentState) -> dict:
     """Execute the planned action."""
     return {
-        "messages": ["⚡ Executor: Carrying out the plan..."],
+        "messages": ["[Executor]: Carrying out the plan..."],
         "step_count": state.get("step_count", 0) + 1,
     }
 
 def reviewer(state: AgentState) -> dict:
     """Review results and decide next steps."""
     return {
-        "messages": ["✅ Reviewer: Task completed successfully!"],
+        "messages": ["[Reviewer]: Task completed successfully!"],
         "step_count": state.get("step_count", 0) + 1,
     }
 
@@ -369,7 +369,7 @@ workflow.add_edge("reviewer", END)
 
 # ── 4. Compile & Run ────────────────────────────────────
 app = workflow.compile()
-result = app.invoke({"messages": ["🚀 User: Summarize today's AI news"], "step_count": 0})
+result = app.invoke({"messages": ["[User]: Summarize today's AI news"], "step_count": 0})
 
 for msg in result["messages"]:
     print(msg)
@@ -377,15 +377,15 @@ for msg in result["messages"]:
 
 **Output:**
 ```
-🚀 User: Summarize today's AI news
-🎯 Planner: Analyzing goal and creating action plan...
-⚡ Executor: Carrying out the plan...
-✅ Reviewer: Task completed successfully!
+[User]: Summarize today's AI news
+[Planner]: Analyzing goal and creating action plan...
+[Executor]: Carrying out the plan...
+[Reviewer]: Task completed successfully!
 ```
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <table>
   <tr>
@@ -393,46 +393,46 @@ for msg in result["messages"]:
     <th>Technologies</th>
   </tr>
   <tr>
-    <td><b>🧠 Core Framework</b></td>
+    <td><b> Core Framework</b></td>
     <td>LangGraph, LangChain, LangSmith</td>
   </tr>
   <tr>
-    <td><b>🤖 LLM Providers</b></td>
+    <td><b> LLM Providers</b></td>
     <td>OpenAI, Anthropic Claude, Google Gemini, Groq, Ollama, HuggingFace</td>
   </tr>
   <tr>
-    <td><b>📡 Protocols</b></td>
+    <td><b> Protocols</b></td>
     <td>Model Context Protocol (MCP), LangServe</td>
   </tr>
   <tr>
-    <td><b>📚 RAG & Embeddings</b></td>
+    <td><b> RAG & Embeddings</b></td>
     <td>ChromaDB, FAISS, Sentence-Transformers, Unstructured</td>
   </tr>
   <tr>
-    <td><b>🖥️ Frontend</b></td>
+    <td><b> Frontend</b></td>
     <td>Streamlit</td>
   </tr>
   <tr>
-    <td><b>💾 Persistence</b></td>
+    <td><b> Persistence</b></td>
     <td>SQLite (via langgraph-checkpoint-sqlite)</td>
   </tr>
   <tr>
-    <td><b>🔍 Search & Tools</b></td>
+    <td><b> Search & Tools</b></td>
     <td>Tavily, DuckDuckGo, Wikipedia, SERP API</td>
   </tr>
   <tr>
-    <td><b>📊 Evaluation</b></td>
+    <td><b> Evaluation</b></td>
     <td>RAGAS, Scikit-learn</td>
   </tr>
   <tr>
-    <td><b>⚡ ML / Deep Learning</b></td>
+    <td><b> ML / Deep Learning</b></td>
     <td>PyTorch, Transformers, Accelerate</td>
   </tr>
 </table>
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome and appreciated! Here's how you can help:
 
@@ -444,7 +444,7 @@ Contributions are welcome and appreciated! Here's how you can help:
 5.  Open a Pull Request
 ```
 
-> **💡 Ideas for contributions:**
+> **Ideas for contributions:**
 > - Complete any of the 🔜 pending modules
 > - Add new agent design patterns
 > - Improve documentation & add diagrams
@@ -452,7 +452,7 @@ Contributions are welcome and appreciated! Here's how you can help:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
@@ -462,13 +462,13 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
   <br/>
 
-  <h3>⭐ If this repo helped you, please consider giving it a star!</h3>
+  <h3>If this repo helped you, please consider giving it a star!</h3>
 
   <p><i>It helps others discover the project and motivates further development.</i></p>
 
   <br/>
 
-  <p><b>Built with ❤️ by Mohd Faizy</b></p>
+  <p><b>Built by Mohd Faizy</b></p>
   
   <a href="https://twitter.com/F4izy"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/mohd-faizy/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
