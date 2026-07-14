@@ -198,17 +198,6 @@ The system is built around these **7 modular, interoperable components**:
 | 19 | **Advanced Memory** | Long-term memory, vector stores, and context management | 🔜 | ⏳ Coming Soon |
 | 20 | **Capstone Projects** | End-to-end production-grade agentic systems | 🔜 | ⏳ Coming Soon |
 
-### 🎁 Bonus — Conversational Chatbot Apps
-
-Full Streamlit-based chatbot applications with streaming, threading, and SQLite persistence:
-
-| File | Description |
-|:---|:---|
-| [`01_chatbot_frontend_basic.py`](06_Conversational_ai_chatbot/01_chatbot_frontend_basic.py) | Basic Streamlit chatbot UI |
-| [`02_chatbot_frontend_streaming.py`](06_Conversational_ai_chatbot/02_chatbot_frontend_streaming.py) | Streaming response chatbot |
-| [`03_Chatbot_frontend_threading.py`](06_Conversational_ai_chatbot/03_Chatbot_frontend_threading.py) | Multi-threaded conversation chatbot |
-| [`04_Chatbot_SQLite.py`](06_Conversational_ai_chatbot/04_Chatbot_SQLite.py) | Chatbot with SQLite persistence |
-
 ---
 
 ## 📂 Project Structure
