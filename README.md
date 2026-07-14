@@ -460,12 +460,12 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
   <p><b>Built by Mohd Faizy</b></p>
   
-  <a href="https://twitter.com/F4izy"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/mohd-faizy/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://github.com/mohd-faizy"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://www.credly.com/users/mohd-faizy/edit/badges/credly"><img src="https://img.shields.io/badge/Credly-F15A24?style=for-the-badge&logo=credly&logoColor=white"/></a>
-  <a href="https://ai.stackexchange.com/users/36737/faizy"><img src="https://img.shields.io/badge/StackExchange-1E5397?style=for-the-badge&logo=stackexchange&logoColor=white"/></a>
-  <a href="https://mohdfaizy.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=About.me&logoColor=white"/></a>
+  <a href="https://twitter.com/F4izy" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/mohd-faizy/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://github.com/mohd-faizy" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://www.credly.com/users/mohd-faizy/edit/badges/credly" target="_blank"><img src="https://img.shields.io/badge/Credly-F15A24?style=for-the-badge&logo=credly&logoColor=white"/></a>
+  <a href="https://ai.stackexchange.com/users/36737/faizy" target="_blank"><img src="https://img.shields.io/badge/StackExchange-1E5397?style=for-the-badge&logo=stackexchange&logoColor=white"/></a>
+  <a href="https://mohdfaizy.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=About.me&logoColor=white"/></a>
 
   <br/>
   <br/>
