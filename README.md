@@ -100,9 +100,7 @@ The system is built around these **7 modular, interoperable components**:
   <img src="assets/agentic_sys.png" alt="Agentic AI System Architecture" width="500px"/>
 </div>
 
-<details>
-<summary><b>📦 Component Details</b> (click to expand)</summary>
-<br/>
+### Component Details
 
 | # | Component | Description |
 |:---:|:---|:---|
@@ -113,8 +111,6 @@ The system is built around these **7 modular, interoperable components**:
 | 5 | **Tools & Interfaces** | Web search, code interpreter, API clients — abstracted as callable graph nodes |
 | 6 | **Task Router / Controller** | Centralized planning or distributed negotiation for subtask assignment |
 | 7 | **Observability & Debugging** | LangSmith tracing, LangGraph visualizer, structured logging middleware |
-
-</details>
 
 ---
 
@@ -263,8 +259,7 @@ Agentic_AI_using_LangGraph/
 
 ### Installation
 
-<details>
-<summary><b>Option 1: Using <code>uv</code></b> (Recommended — fastest)</summary>
+#### Option 1: Using `uv` (Recommended — fastest)
 
 ```bash
 # Clone
@@ -280,10 +275,7 @@ source .venv/bin/activate       # macOS/Linux
 uv add -r requirements.txt
 ```
 
-</details>
-
-<details>
-<summary><b>Option 2: Using <code>pip</code></b></summary>
+#### Option 2: Using `pip`
 
 ```bash
 # Clone
@@ -298,8 +290,6 @@ venv\Scripts\activate           # Windows
 # Install dependencies
 pip install -r requirements.txt
 ```
-
-</details>
 
 ### Configuration
 
